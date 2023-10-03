@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-header {
+/* header {
   display: inline;
 }
 
@@ -35,7 +35,7 @@ nav ul {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
+} */
 
 #home img{
   padding: 20px 30px 20px 100px;
