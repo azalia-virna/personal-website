@@ -4,58 +4,57 @@
   padding: 0;
 }
 
-/* header {
-  display: inline;
-}
-
-#navbar {
-  position: relative;
-  width: 500px;
-}
-
-nav ul {
+nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  padding-left: 400px;
+  width: 100%;
+  margin: auto;
+  background: #0077b6;
+  position: fixed;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  list-style-type: none;
-  padding-top: 20px;
-  margin-right: 20px;
-  padding: 10px 30px 30px 30px;
+menu{
+  text-align: center;
   justify-content: center;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-} */
-
-#home img{
-  padding: 20px 30px 20px 100px;
-  border-radius: 50%;  
 }
 
-/* .home-img img {
-  padding: 20px 0px 20px 100px;
-  border-radius: 50px;
-} */
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 30px 10px 30px 50px;
+  font-family: Montserrat;
+  overflow: hidden;
+
+}
+
+nav ul li a{
+text-align: center;
+padding: 0px 20px 0px 20px;
+align-items: center;
+color: #ffff;
+}
+
+.logo{
+  padding-top: 15px;
+  padding-left: 800px;
+
+}
+
+#home img {
+  padding: 100px 30px 20px 100px;
+  border-radius: 50%;
+}
 
 #home {
   display: flex;
   justify-content: space-between;
   font-family: Montserrat;
   background: #94bdf2;
+  margin: 5px 0px 5px 0px;
 }
 
 .profil {
-  padding: 30px 30px 20px 30px;
+  padding: 120px 30px 20px 30px;
 }
 
 .profil h1 {
@@ -73,21 +72,21 @@ nav ul {
   text-align: justify;
 }
 
-#about{ 
+#about {
   font-family: Montserrat;
   padding: 25px 20px 20px 25px;
   text-align: justify;
 }
 
-#about h1{
+#about h1 {
   text-align: center;
   padding: 10px 0px 10px 0px;
 }
 
-#about h4{
+#about h4 {
   padding-bottom: 10px;
 }
-#about p{
+#about p {
   padding-bottom: 10px;
 }
 
@@ -114,29 +113,29 @@ nav ul {
   background: #94bdf2;
 }
 
-#projects h1{
+#projects h1 {
   text-align: center;
   padding: 10px 0px 10px 0px;
 }
 
-#projects img{
+#projects img {
   border-radius: 3%;
 }
 
-.card-projects{
+.card-projects {
   padding: 35px 35px 35px 35px;
   margin-top: 5px;
 }
 
-.card-projects h3{
+.card-projects h3 {
   padding-bottom: 10px;
 }
 
-.card-projects h4{
+.card-projects h4 {
   padding-bottom: 3px;
 }
 
-.card-projects p{
+.card-projects p {
   padding-bottom: 5px;
 }
 
@@ -146,7 +145,7 @@ nav ul {
   text-align: justify;
 }
 
-#blog h1{
+#blog h1 {
   text-align: center;
   padding: 10px 0px 10px 0px;
 }
@@ -157,20 +156,24 @@ nav ul {
   padding: 15px 5px 15px 5px;
 }
 
-.card{
+.card {
   padding-top: 0px;
   text-align: justify;
   padding-left: 50px;
 }
 
-.card p{
+.card p {
   padding-bottom: 5px;
 }
 
-footer{
+footer {
   font-family: Montserrat;
   text-align: center;
   padding: 20px 0px 20px 0px;
   background: #0077b6;
   color: #ffff;
+}
+
+footer a{
+  color: red;
 }
