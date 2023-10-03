@@ -4,45 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Website</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" type="text/css" href="styling.css" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><img class="logo" src="img/github.png" width="50px" height="50px" /></li>
-          <li><img class="logo" src="img/linkedin.png" width="50px" height="50px" /></li>
-          <li class="menu">
-            <a href="#home">Home</a>
-          </li>
-          <li class="menu">
-            <a href="#about">About</a>
-          </li>
-          <li class="menu">
-            <a href="#projects">Portofolio</a>
-          </li>
-          <li class="menu">
-            <a href="#blog">Blog</a>
-          </li>
-        </ul>
-      </nav>
+      <div id="navbar">
+        <nav>
+          <ul>
+            <li class="menu">
+              <a href="#home">Home</a>
+            </li>
+            <li class="menu">
+              <a href="#about">About</a>
+            </li>
+            <li class="menu">
+              <a href="#projects">Portofolio</a>
+            </li>
+            <li class="menu">
+              <a href="#blog">Blog</a>
+            </li>
+          </ul>
+          <!-- <div class="logo">
+            <img src="img/github.png" width="50px" height="50px" />
+            <img src="img/linkedin.png" width="50px" height="50px" />
+          </div> -->
+        </nav>
+      </div>
     </header>
 
     <section id="home">
-      <div><img src="img/virna.jpeg" width="200" height="200px" /></div>
-      <div><h1>Hallo, I'm Virna!</h1></div>
-      <div>
+      <img src="img/virna.jpeg" width="300px" height="300px" />
+      <!-- <div class="home-img"><img src="img/virna.jpeg" width="300px" height="300px" /></div> -->
+      <div class="profil">
+        <h1>Hallo, I'm Virna!</h1>
         <p>
           I am a computer science student who is highly enthusiastic about gaining experiences both inside and outside of the campus. Throughout my academic journey, I have actively participated in various activities that have broadened my
           insights and skills, which I believe will be an asset in a workplace setting. One of my primary interests lies in web development, which has become the focal point of my skill development. I enjoy taking on new challenges and
           continuously deepening my knowledge and skills in web development.
         </p>
+        <h3>My Toolbox</h3>
+        <h4>Frontend</h4>
+        <p>HTML, CSS, Javascript, and React</p>
       </div>
-      <div><h3>My Toolbox</h3></div>
-      <div><img src="" alt="" /></div>
-      <div><h4>Frontend</h4></div>
-      <div><p>HTML, CSS, Javascript, and React</p></div>
     </section>
 
     <section id="about">
@@ -55,54 +59,86 @@
         </p>
       </div>
       <div><h4>Relevant Experiences</h4></div>
-      <div>
-        <img src="img/stechoq.png" width="100px" height="50px" />
-        <h6>PT Stechoq Robotika Indonesia as A Web Developer</h6>
-        <p>
-          In my role as a project manager and web developer, I was responsible for creating an LMS platform and overseeing web development for our partners participating in the Kampus Merdeka program. Additionally, I ensured the alignment
-          of my team's tasks with the given directives.
-        </p>
-        <p>I received praise for successfully completing this project swiftly, and my mentor acknowledged my skill in public speaking.</p>
+      <div class="list-about">
+        <img src="img/stechoq.png" width="150px" height="100px" />
+        <div class="title">
+          <h4>PT Stechoq Robotika Indonesia as A Web Developer</h4>
+          <p>
+            In my role as a project manager and web developer, I was responsible for creating an LMS platform and overseeing web development for our partners participating in the Kampus Merdeka program. Additionally, I ensured the alignment
+            of my team's tasks with the given directives.
+          </p>
+          <p>I received praise for successfully completing this project swiftly, and my mentor acknowledged my skill in public speaking.</p>
+        </div>
       </div>
-      <div>
-        <img src="img/skilvul.jpeg" width="100px" height="50px" />
-        <h6>Skilvul as A Student Fullstack Web Developer</h6>
-        <p>I was presented with a health-related issue and tasked with creating a website to address the problem. For the frontend, I utilized the React.js library, while for the backend, I employed Express.js.</p>
+      <div class="list-about">
+        <img src="img/skilvul.jpeg" width="150px" height="100px" />
+        <div class="title">
+          <h4>Skilvul as A Student Fullstack Web Developer</h4>
+          <p>I was presented with a health-related issue and tasked with creating a website to address the problem. For the frontend, I utilized the React.js library, while for the backend, I employed Express.js.</p>
+        </div>
       </div>
     </section>
 
     <section id="projects">
-      <div>
-        <div><h1>My Projects</h1></div>
-        <div><img src="img/xplore.jpeg" width="250" height="250px" /></div>
-        <div><h3>Surabaya Xplore</h3></div>
-        <div>
-          <p>Summary</p>
+      <div><h1>My Projects</h1></div>
+      <div class="explore">
+        <img src="img/xplore.jpeg" width="350" height="370px" />
+        <div class="card-projects">
+          <h3>Surabaya Xplore</h3>
+          <h4>Summary</h4>
           <p>This is one of the remarkable projects for me, as this website was created to introduce Surabaya's tourism to the general public.</p>
-          <p>Role</p>
+          <h4>Role</h4>
           <p>I designed this website using Figma, then utilized JavaScript and the Bootstrap CSS framework to ensure the website remains responsive while maintaining an appealing visual layout.</p>
         </div>
-        <div><button href="Link https://github.com/azalia-virna/surabaya-xplore">Code</button></div>
+      </div>
+      <!-- <div><button href="Link https://github.com/azalia-virna/surabaya-xplore">Code</button></div> -->
+
+      <div class="explore">
+        <img src="img/beauty.jpeg" width="350" height="310px" />
+        <div class="card-projects">
+          <h3>For Your Healthy Skin</h3>
+          <h4>Summary</h4>
+          <p>This is my finest website, as I designed it exclusively for women who care about their skin health.</p>
+          <h4>Role</h4>
+          <p>I designed this website using Figma, then utilized JavaScript and the Bootstrap CSS framework to ensure the website remains responsive while maintaining an appealing visual layout.</p>
+        </div>
+      </div>
+      <!-- <div><button href="https://github.com/azalia-virna/048_Virna-Hari-Nur-Azalia/tree/main/048_Virna%20Hari%20Nur%20Azalia/Beauty%20Blog">Code</button></div> -->
+    </section>
+
+    <section id="blog">
+      <div><h1>Why Become a Web Developer? Here are the Reasons and Tips</h1></div>
+      <div class="card-blog">
+        <img src="img/1.jpg" alt="" width="400" />
+        <div class="card">
+          <a href="https://ikatandinas.com/10-alasan-memilih-menjadi-web-developer/"><b>10 Reasons to Choose a Career in Web Development</b></a>
+          <p>As a profession that is becoming increasingly in demand, being a web developer has many advantages and benefits. Here are 10 reasons why you should choose to become a web developer:</p>
+        </div>
       </div>
 
-      <div>
-        <div><img src="img/beauty.jpeg" width="250" height="210px" /></div>
-        <div><h3>For Your Healthy Skin</h3></div>
-        <div>
-          <p>Summary</p>
-          <p>This is my finest website, as I designed it exclusively for women who care about their skin health.</p>
-          <p>Role</p>
-          <p>I designed this website using Figma, then utilized JavaScript and the Bootstrap CSS framework to ensure the website remains responsive while maintaining an appealing visual layout.</p>
+      <div class="card-blog">
+        <img src="img/2.jpg" alt="" width="400" />
+        <div class="card">
+          <a href="https://bitlabs.id/blog/web-developer-adalah/"><b>Do you want to pursue a career as a web developer? Here are the skills you need to learn!</b></a>
+          <p>
+            Indonesia is a very promising digital market. It is no wonder that more and more people want to create websites, both for personal and business purposes. That is why the services of web developers are increasingly needed over
+            time.
+          </p>
         </div>
-        <div><button href="https://github.com/azalia-virna/048_Virna-Hari-Nur-Azalia/tree/main/048_Virna%20Hari%20Nur%20Azalia/Beauty%20Blog">Code</button></div>
+      </div>
+
+      <div class="card-blog">
+        <img src="img/3.jpg" alt="" width="400" />
+        <div class="card">
+          <a href= "https://www.hostinger.co.id/tutorial/cara-menjadi-web-developer"><b>How to Become a Web Developer: A Complete Guide & Tips!</b></a>
+          <p>According to the Bureau of Labor Statistics, the need for web developers is projected to grow 8% from 2020 to 2030, or 4% faster than the average for all occupations. Here are the skills you need to become a web developer.</p>
+        </div>
       </div>
     </section>
 
-    <section id="blog"></section>
-
     <footer>
       <div>
-        <p>Please contact me <a href="www.linkedin.com/in/azaliavirna">VIRNA</a> if you are interested in getting help. I would be happy to assist you.</p>
+        <p>Please contact me <a href="https://www.instagram.com/virnaaazl/?hl=en">VIRNA HARI NUR AZALIA</a> if you are interested in getting help. I would be happy to assist you.</p>
       </div>
     </footer>
   </body>
