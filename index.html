@@ -31,9 +31,12 @@
         <h1>Hallo, I'm Virna!</h1>
         <p>
           I am a computer science student who is highly enthusiastic about gaining experiences both inside and outside of the campus. Throughout my academic journey, I have actively participated in various activities that have broadened my
+        </p>
+        <p>
           insights and skills, which I believe will be an asset in a workplace setting. One of my primary interests lies in web development, which has become the focal point of my skill development. I enjoy taking on new challenges and
           continuously deepening my knowledge and skills in web development.
         </p>
+          
         <h3>My Toolbox</h3>
         <h4>Frontend</h4>
         <p>HTML, CSS, Javascript, and React</p>
@@ -41,31 +44,38 @@
     </section>
 
     <section id="about">
-      <div><h1>This is About My Self</h1></div>
+      <div><h1>This is <span id="about-1">About</span> My Self</h1></div>
       <div>
-        <p>
+        <p id="paragraf">
           I am an active student who actively participates in programs offered by Kampus Merdeka. I have been a part of the campus accreditation team and have been actively engaged in local student organizations. As a computer science
           student, I have a keen interest in the field of software engineering. This is evident from my internship experience as a web developer and my pursuit of further knowledge through an independent study program focused on fullstack
           web development.
         </p>
       </div>
-      <div><h4>Relevant Experiences</h4></div>
-      <div class="list-about">
-        <img src="img/stechoq.png" width="150px" height="100px" />
-        <div class="title">
-          <h4>PT Stechoq Robotika Indonesia as A Web Developer</h4>
-          <p>
-            In my role as a project manager and web developer, I was responsible for creating an LMS platform and overseeing web development for our partners participating in the Kampus Merdeka program. Additionally, I ensured the alignment
-            of my team's tasks with the given directives.
-          </p>
-          <p>I received praise for successfully completing this project swiftly, and my mentor acknowledged my skill in public speaking.</p>
+      <div><h3><b>Relevant Experiences</b></h3></div>
+      <div id="card">
+        <div class="card">
+          <div id="card-img">
+            <img src="img/stechoq.png" width="150px" height="100px" />
+          </div>
+          <div id="content">
+            <h4>PT Stechoq Robotika Indonesia as A Web Developer</h4>
+            <p>
+              In my role as a project manager and web developer, I was responsible for creating an LMS platform and overseeing web development for our partners participating in the Kampus Merdeka program. Additionally, I ensured the alignment
+              of my team's tasks with the given directives.
+            </p>
+            <p>I received praise for successfully completing this project swiftly, and my mentor acknowledged my skill in public speaking.</p>
+          </div>
         </div>
-      </div>
-      <div class="list-about">
-        <img src="img/skilvul.jpeg" width="150px" height="100px" />
-        <div class="title">
-          <h4>Skilvul as A Student Fullstack Web Developer</h4>
-          <p>I was presented with a health-related issue and tasked with creating a website to address the problem. For the frontend, I utilized the React.js library, while for the backend, I employed Express.js.</p>
+  
+        <div class="card">
+          <div id="card-img">
+            <img src="img/skilvul.jpeg" width="150px" height="100px" />
+          </div>
+          <div id="content">
+            <h4>Skilvul as A Student Fullstack Web Developer</h4>
+            <p>I was presented with a health-related issue and tasked with creating a website to address the problem. For the frontend, I utilized the React.js library, while for the backend, I employed Express.js.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -97,17 +107,17 @@
 
     <section id="blog">
       <div><h1>Why Become a Web Developer? Here are the Reasons and Tips</h1></div>
-      <div class="card-blog">
-        <img src="img/1.jpg" alt="" width="400" />
-        <div class="card">
+      <div class="box-blog">
+        <img class="box-img" src="img/1.jpg" alt="" width="400" />
+        <div class="box">
           <a href="https://ikatandinas.com/10-alasan-memilih-menjadi-web-developer/"><b>10 Reasons to Choose a Career in Web Development</b></a>
           <p>As a profession that is becoming increasingly in demand, being a web developer has many advantages and benefits. Here are 10 reasons why you should choose to become a web developer:</p>
         </div>
       </div>
 
-      <div class="card-blog">
-        <img src="img/2.jpg" alt="" width="400" />
-        <div class="card">
+      <div class="box-blog">
+        <img class="box-img" src="img/2.jpg" alt="" width="400" />
+        <div class="box">
           <a href="https://bitlabs.id/blog/web-developer-adalah/"><b>Do you want to pursue a career as a web developer? Here are the skills you need to learn!</b></a>
           <p>
             Indonesia is a very promising digital market. It is no wonder that more and more people want to create websites, both for personal and business purposes. That is why the services of web developers are increasingly needed over
@@ -116,9 +126,9 @@
         </div>
       </div>
 
-      <div class="card-blog">
-        <img src="img/3.jpg" alt="" width="400" />
-        <div class="card">
+      <div class="box-blog">
+        <img class="box-img" src="img/3.jpg" alt="" width="400" />
+        <div class="box">
           <a href= "https://www.hostinger.co.id/tutorial/cara-menjadi-web-developer"><b>How to Become a Web Developer: A Complete Guide & Tips!</b></a>
           <p>According to the Bureau of Labor Statistics, the need for web developers is projected to grow 8% from 2020 to 2030, or 4% faster than the average for all occupations. Here are the skills you need to become a web developer.</p>
         </div>
